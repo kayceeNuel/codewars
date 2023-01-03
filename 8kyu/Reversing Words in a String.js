@@ -10,6 +10,5 @@
 //MY SOLUTION
 function reverse(string){
     //your code here
-    return string.split("").reverse().join("");
+    return string.split(" ").reverse().join(" ");
   }
-  reverseString("string")

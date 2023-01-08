@@ -8,8 +8,14 @@
 
 
     // MY SOLUTION
-    
+
     function solution(str, ending) {
         return str.indexOf(ending, str.length - ending.length) !== -1;
       }
   
+      //SECOND SOLUTIONS
+
+      function solution(str, ending){
+        return str.endsWith(ending)
+      }
+      

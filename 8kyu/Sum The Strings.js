@@ -14,3 +14,8 @@ function sumStr(a,b) {
    b = b ? parseInt(b) :0
   return (a + b).toString()
 }
+
+// This function takes two strings, a and b, as input. 
+// It uses the ternary operator to check if either input is an empty string, and if so, assigns it a value of 0.
+//  It then converts the non-empty strings to integers using the parseInt() function. 
+//  Then, it adds these integers together and the result is converted back to a string using the toString() function and returned as the output.

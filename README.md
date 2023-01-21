@@ -3,7 +3,8 @@ This repo is where I push all my solutions to codewars coding challenges. Doing 
 # Current Rank
 
 
-![large](https://user-images.githubusercontent.com/97654031/213689545-0ceec157-d87a-47d4-91ab-fdd9aa448bde.svg)
+![large](https://user-images.githubusercontent.com/97654031/213863019-2a45b668-fbae-4cc7-bd01-2a642185379e.svg)
+
 
 
 🤦‍♂️Codewars can be frustrating😩.

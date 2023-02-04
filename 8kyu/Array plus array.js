@@ -14,7 +14,7 @@
 //Soluion(`[1]+[2]` ---> [1,2,3,], [4,5,6])
 
 //PSUEDO CODE
-//declear a var that will access  the input(s) and return the var with an built array methods.
+//declare a var that will access  the input(s) and return the var with an built array methods.
 
 
 function arrayPlusArray(arr1, arr2) {

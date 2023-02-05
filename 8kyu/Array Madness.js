@@ -19,10 +19,21 @@
 //   END IF
 // END FUNCTION
 
+function arrayMadness(a, b) {
+    const sumOfSqr = a.reduce( (a,b) => a + b ** 2,0)
+    const sumOfCube = b.reduce( (a,b) => a + b ** 3,0)
+     if (sumOfSqr > sumOfCube){
+       return true
+     }else {
+       return false
+     }
+  }
 
+  //TWO DIFFERENT ANSEWERS
 
 function arrayMadness(a, b) {
     let sumOfSqr = a.reduce( (a,b) => a + b ** 2,0)
     let sumOfCube = b.reduce( (a,b) => a + b ** 3,0)
     return sumOfSqr > sumOfCube
   }
+

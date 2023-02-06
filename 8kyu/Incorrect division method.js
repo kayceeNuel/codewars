@@ -2,5 +2,11 @@
 
 //ANSWER
 
-const solve=( x,y) => x /y
+const solve=( x,y) => x /y //arrow function
 
+// OR
+
+function solve (x,y) { // funciton expression or statement
+    return x /y
+  }
+  

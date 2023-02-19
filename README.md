@@ -12,3 +12,5 @@ This repo is where I push all my solutions to codewars coding challenges. Doing 
 🥳But it helps tackle coding problems.
 
 🎯 Each .js file represents one kata solved.
+
+😉 Daily codewars helps me to stay motivated.

@@ -27,3 +27,9 @@
 function contamination(text, char){
     return char.repeat(text.length)
   }
+
+  //using function expression 
+  
+  const contamination = function (text,char) {
+    return char.repeat(text.length)
+  }

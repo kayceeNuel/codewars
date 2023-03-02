@@ -12,7 +12,10 @@
 //SOLUTION
 
 function remove(string) {
-    return string.slice(-1) + string.slice(1, -1) + string.slice(0, 1);
-
+     // remove all exclamation marks except for the last one
+  let result = string.replace(/!/g, '');
+  // add an exclamation mark to the end of the string
+  result += '!';
+  return result;
   }
   

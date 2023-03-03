@@ -14,3 +14,6 @@ const helloWorld = () => {
     let str = String.fromCharCode(...arr);
     return str;
   };
+
+//PESUDOCODE
+// Here is a string challenge kata that will return the string 'Hello, World!' without actually using raw strings. For this kata, I created an array of numbers that contains ASCII codes. I then used the fromCharCode() function to convert the ASCII codes to their unique characters. Finally, I used the string object to concatenate the characters.

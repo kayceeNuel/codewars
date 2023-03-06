@@ -21,15 +21,10 @@
 // Write a function named isNice/IsNice that returns true if its array argument is a Nice array, else false. An empty array is not considered nice.
 
 
-//P.R.E.P
-// Get an array value (n) that has elements of minus and plus.
-//R: return true if the arrays isNice and return empty if otherwise.
-//E: []
-
 
 
 //SOLUTION
 
 function isNice(arr){
-    return !!arr.length && arr.every(val => arr.includes(val + 1) || arr.includes(val - 1));
+  return !! arr.length && arr.every (val => arr.includes(val + 1) || (val => arr.includes(val - 1)))
 }

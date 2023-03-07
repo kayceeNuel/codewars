@@ -28,3 +28,8 @@
 function isNice(arr){
   return !! arr.length && arr.every (val => arr.includes(val + 1) || (val => arr.includes(val - 1)))
 }
+
+// OR 
+var isNice = (arr) =>{
+  return !!arr.length && arr.every(val => arr.includes (val + 1) || arr.includes(val - 1))
+}

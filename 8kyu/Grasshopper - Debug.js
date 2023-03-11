@@ -44,3 +44,5 @@ function weatherInfo(temp) {
     var celsius = (temperature - 32) * (5/9);
     return celsius;
   }
+
+ /* This code now correctly converts the temperature from Fahrenheit to Celsius using the convertToCelsius function, and correctly checks whether the temperature is freezing or above freezing in the weatherInfo function.*/

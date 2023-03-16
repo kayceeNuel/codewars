@@ -6,15 +6,15 @@ If the tail is right return true, else return false.
 The arguments will always be non empty strings, and normal letters. */
 
 //BUG 
-function correctTail(bod, tail ;
+// function correctTail(bod, tail ;
   
-    sub = body.substr(bodylength-(tail.length)
+//     sub = body.substr(bodylength-(tail.length)
     
-    if sub = tail) ;
-      return true
-    }
-    else 
-      return false
+//     if sub = tail) ;
+//       return true
+//     }
+//     else 
+//       return false
   
       // SOLUTION
       function correctTail(body, tail) {

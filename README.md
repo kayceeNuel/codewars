@@ -2,8 +2,7 @@
 This repo is where I push all my solutions to codewars coding challenges. Doing this every day helps to strengthen my javascript skill.  Every problem is categorized by difficulty where the lower the number "kyu", the harder the problem.
 # Current Rank
 
-![large](https://user-images.githubusercontent.com/97654031/228679305-f023a3f1-224e-44d0-8623-c5810dd222a9.svg)
-
+![large](https://user-images.githubusercontent.com/97654031/229228338-33a67451-e8da-4eaa-b8c7-bcbc0df01423.svg)
 
 
 🤦‍♂️Codewars can be frustrating😩.

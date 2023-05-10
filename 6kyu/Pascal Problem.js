@@ -28,3 +28,23 @@ function pascal(depth) {
     else
       return calculate(c-1, r-1) + calculate(c, r-1);
   }
+
+  // SOLUTION
+  function pascal(depth) {
+    var results = [];
+    for (var r=0; r < depth; r++) {
+      var row = [];
+      for (var c=0; c <= r; c++) {
+        row.push(calculate(c, r));
+      }
+      results.push(row);
+    }
+    return results;
+  }
+  
+  function calculate(c, r) {
+    if ( c == 0 || c == r )
+      return 1;
+    else
+      return calculate(c-1, r-1) + calculate(c, r-1);
+  }
